@@ -4,7 +4,7 @@
 
     <groupId>io.github.cozyloon</groupId>
     <artifactId>lets</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
@@ -46,25 +46,5 @@
             <url>https://maven.pkg.github.com/cozyloon/mvnPkg</url>
         </repository>
     </distributionManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.1</version>
-                <configuration>
-                    <!-- Customize release configuration if needed -->
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
-    <scm>
-        <connection>scm:git:https://github.com/cozyloon/mvnPkg.git</connection>
-        <developerConnection>scm:git:https://github.com/cozyloon/mvnPkg.git</developerConnection>
-        <url>https://github.com/cozyloon/mvnPkg</url>
-        <tag>lets-1.0</tag>
-    </scm>
 
 </project>
