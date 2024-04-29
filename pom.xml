@@ -4,7 +4,7 @@
 
     <groupId>com.cozyloon</groupId>
     <artifactId>lets</artifactId>
-    <version>1.2</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -48,7 +48,7 @@
         </repository>
     </distributionManagement>
   
-    <scm>
+<!--     <scm>
         <connection>scm:git:https://github.com/cozyloon/mvnPkg.git</connection>
         <developerConnection>scm:git:https://github.com/cozyloon/mvnPkg.git</developerConnection>
         <url>https://github.com/cozyloon/mvnPkg</url>
@@ -70,6 +70,6 @@
                 <role>Owner</role>
             </roles>
         </developer>
-    </developers>
+    </developers> -->
     
 </project>
